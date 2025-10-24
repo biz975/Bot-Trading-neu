@@ -1,6 +1,14 @@
-python-telegram-bot==13.15
-requests
-aiohttp
-ccxt
-pandas
-numpy
+python-telegram-bot==20.7
+httpx[http2]==0.27.0
+
+ccxt==4.3.66
+pandas==2.2.2
+pandas_ta==0.3.14b0
+apscheduler==3.10.4
+
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Hilfen für Build-Stabilität
+pip==25.1.2
+setuptools==70.0.0
